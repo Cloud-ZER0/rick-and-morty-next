@@ -2,26 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.pre-main-section {
+  width: 100%;
+  min-height: 400px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+._upper {
+  position: absolute;
+  font-weight: bolder;
+  color: white;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.main-section {
+  min-height: 600px;
+  width: 100%;
+  background-color: rgb(23, 23, 39);
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main-section-column {
+  min-height: 600px;
+  width: 100%;
+  background-color: rgb(23, 23, 39);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card {
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: red;
+}
+
+.h-api {
+  font-size: 90px;
+  color: rgb(49, 47, 47);
+  font-weight: 900;
+}
+
+.navigation-btn-group {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  width: 100%;
+  padding-left: 30px;
+}
+
+.label {
+  color: whitesmoke;
+  font-size: 30px;
 }

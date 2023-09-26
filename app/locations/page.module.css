@@ -1,0 +1,10 @@
+.main_section {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: black;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+}

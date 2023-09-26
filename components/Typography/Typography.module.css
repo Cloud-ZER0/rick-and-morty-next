@@ -1,0 +1,16 @@
+.label {
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+.title-head {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.default-variant {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}

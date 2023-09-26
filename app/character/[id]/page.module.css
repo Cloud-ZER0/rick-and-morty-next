@@ -1,0 +1,42 @@
+.main_section {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  background-color: rgb(23, 23, 39);
+  padding: 30px 0px;
+}
+
+.episodes_wpapper {
+  min-height: 400px;
+  min-width: 900px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 20px 0px;
+  margin: 0px 40px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.ep_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  min-width: 350px;
+  color: white;
+  background-color: rgb(41, 39, 39);
+  padding: 10px 10px;
+  max-height: 92px;
+}
+
+.ep_wrapper:hover {
+  transform: scale(1.02);
+}

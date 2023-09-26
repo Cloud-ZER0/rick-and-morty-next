@@ -1,0 +1,47 @@
+.btn_prev_none,
+.btn_next_none {
+  display: none;
+}
+
+.btn_prev,
+.btn_next {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.filter_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  padding-left: 30px;
+}
+
+.filter_category {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.filter_link {
+  color: white;
+}
+
+.main_theme {
+  color: whitesmoke;
+  font-size: 60px;
+  padding-left: 30px;
+}
+
+.filter_section {
+  width: 100%;
+}

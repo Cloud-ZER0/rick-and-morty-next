@@ -1,0 +1,78 @@
+.filter_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0px 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.705);
+}
+
+.filter_category {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.filter_link {
+  color: rgb(189, 181, 181);
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+
+.filter_link:hover {
+  border-color: rgb(255, 185, 55);
+  color: rgb(255, 185, 55);
+}
+
+.main_theme {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.filter_section {
+  width: 100%;
+  background-color: rgb(23, 23, 39);
+  padding-bottom: 30px;
+}
+
+.label {
+  font-size: 16px;
+  color: rgb(236, 226, 226);
+  font-weight: 500;
+}
+
+.btn_find {
+  background-color: gray;
+  padding: 3px 5px;
+}
+
+.local_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+}
+.li_elem {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+}
+
+@media screen and (max-width: 1380px) {
+  .filter_wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .filter_link {
+    font-size: 12px;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+}

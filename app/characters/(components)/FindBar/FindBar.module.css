@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.inpt {
+  padding-left: 10px;
+  border: none;
+  border-radius: 25px;
+}
+
+.inpt::placeholder {
+  padding-left: 10px;
+}
+
+.btn {
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+  padding: 5px 10px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 391px) {
+  .btn {
+    font-size: 12px;
+  }
+}

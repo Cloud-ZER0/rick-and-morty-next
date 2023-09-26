@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100%;
+  min-height: 100px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_of_sort {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+
+.btns {
+  display: inline-flex;
+  gap: 10px;
+}

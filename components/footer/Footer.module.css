@@ -1,0 +1,21 @@
+._footer {
+  min-height: 200px;
+  background-color: rgb(31, 29, 29);
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.info_div span {
+  margin-left: 10px;
+}
